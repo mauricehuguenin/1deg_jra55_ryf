@@ -9,15 +9,7 @@
     {
       "filename": "INPUT/RYF.rlds.1990_1991.nc",
       "fieldname": "rlds",
-      "cname": "lwfld_ai",
-      "perturbations": [
-        {
-          "type": "offset",
-          "dimension": "constant",
-          "value": 8,
-          "calendar": "forcing"
-        }
-      ]
+      "cname": "lwfld_ai"
     },
     {
       "filename": "INPUT/RYF.prra.1990_1991.nc",
