@@ -1,4 +1,5 @@
-{
+
+1;95;0c{
   "description": "JRA55-do V1.4.0 RYF 1990-91 forcing",
   "inputs": [
     {
@@ -9,7 +10,15 @@
     {
       "filename": "INPUT/RYF.rlds.1990_1991.nc",
       "fieldname": "rlds",
-      "cname": "lwfld_ai"
+      "cname": "lwfld_ai",
+      "perturbations": [
+        {
+          "type": "offset",
+          "dimension": "constant",
+          "value": 8,
+          "calendar": "forcing"
+        }
+      ]
     },
     {
       "filename": "INPUT/RYF.prra.1990_1991.nc",
@@ -35,15 +44,7 @@
     {
       "filename": "INPUT/RYF.tas.1990_1991.nc",
       "fieldname": "tas",
-      "cname": "tair_ai",
-      "perturbations": [
-        {
-          "type": "offset",
-          "dimension": "constant",
-          "value": 1.5,
-          "calendar": "forcing"
-        }
-      ]
+      "cname": "tair_ai"
     },
     {
       "filename": "INPUT/RYF.rhuss.1990_1991.nc",
