@@ -7,18 +7,9 @@
       "cname": "swfld_ai"
     },
     {
-      "filename": "INPUT/RYF.rlds.1990_1991.nc",
+      "filename": "INPUT/RYF.rlds.1990_1991_rcpwarm.nc",
       "fieldname": "rlds",
-      "cname": "lwfld_ai",
-      "perturbations": [
-        {
-          "type": "offset",
-          "dimension": "constant",
-          "value": 8,
-          "calendar": "forcing",
-          "comment": ""
-        }
-      ]
+      "cname": "lwfld_ai"
     },
     {
       "filename": "INPUT/RYF.prra.1990_1991.nc",
@@ -42,18 +33,9 @@
       "domain": "land"
     },
     {
-      "filename": "INPUT/RYF.tas.1990_1991.nc",
+      "filename": "INPUT/RYF.tas.1990_1991_rcpwarm.nc",
       "fieldname": "tas",
-      "cname": "tair_ai",
-      "perturbations": [
-        {
-          "type": "offset",
-          "dimension": "constant",
-          "value": 1.5,
-          "calendar": "forcing",
-          "comment": ""
-        }
-      ]
+      "cname": "tair_ai"
     },
     {
       "filename": "INPUT/RYF.rhuss.1990_1991.nc",
