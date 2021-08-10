@@ -10,7 +10,7 @@
 
 queue: normal
 walltime: 3:00:00
-jobname: 1deg_warm_test
+jobname: 1deg_warm_test2
 mem: 1000GB
 
 # Model configuration
@@ -20,7 +20,7 @@ input: /g/data/ik11/inputs/access-om2/input_20201102/common_1deg_jra55
 submodels:
     - name: atmosphere
       model: yatm
-      exe: /g/data/ik11/inputs/access-om2/bin/yatm_3ccd606.exe
+      exe: /g/data/ik11/inputs/access-om2/bin/yatm_a28ed21.exe
       input:
             - /g/data/ik11/inputs/access-om2/input_20201102/yatm_1deg
             - /g/data/ik11/inputs/JRA-55/RYF/v1-4
